@@ -1,6 +1,6 @@
 # MÜDEK Yönetim Sistemi
 
-MÜDEK Yönetim Sistemi, mühendislik eğitim programlarının standartlarını belirlemek, değerlendirmek ve iyileştirmek amacıyla tasarlanmış bir mobil uygulamadır. Bu sistem, öğretim üyeleri ve öğrencilerin ders bilgilerini düzenlemeleri, sınav notlarını kaydetmeleri ve değerlendirme yapmaları için etkili bir çözüm sunar. Ayrıca, MÜDEK standartlarına uygun olarak yapılan değerlendirmelerin sağlıklı ve güvenilir bir şekilde gerçekleştirilmesi için gerekli altyapıyı sağlar.
+MÜDEK Yönetim Sistemi, mühendislik eğitim programlarının standartlarını belirlemek, değerlendirmek ve iyileştirmek amacıyla tasarlanmış bir uygulamadır. Bu sistem, öğretim üyeleri ve öğrencilerin ders bilgilerini düzenlemeleri, sınav notlarını kaydetmeleri ve değerlendirme yapmaları için etkili bir çözüm sunar. Ayrıca, MÜDEK standartlarına uygun olarak yapılan değerlendirmelerin sağlıklı ve güvenilir bir şekilde gerçekleştirilmesi için gerekli altyapıyı sağlar.
 
 ## Özellikler
 
