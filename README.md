@@ -31,4 +31,24 @@ MÜDEK Yönetim Sistemi, mühendislik eğitim programlarının standartlarını 
 
 ## Uygulamayı Kullanabilmek İçin
 
-Kök dizininde firebase.js dosyası oluşturarak, firebase ile projenizin konfigürasyonunu sağlayın. Böylece veri tabanı ve auth özelliklerini kullanabilirsiniz.
+- Kök dizininde firebase.js dosyası oluşturarak, firebase ile projenizin konfigürasyonunu sağlayın. Böylece veri tabanı ve auth özelliklerini kullanabilirsiniz.
+- Kodların çalışması için Node.js indirmeniz ve projeye konsoldan dahil etmeniz gerekiyor. Ayrıca projemde kullandığım tüm paketleri de tek tek indirmelisiniz.
+
+## Tasarım
+
+<img src="https://github.com/furkangenca/Mudek---Web/assets/148720624/219d3fdf-6cea-42b8-b1e9-caa8c3d6e3a1" width="850">
+<img src="https://github.com/furkangenca/Mudek---Web/assets/148720624/b1b80eb3-3445-490f-b65b-ea938397f5bc" width="850">
+
+### Öğrenci Bilgilendirme Alanı
+<img src="https://github.com/furkangenca/Mudek---Web/assets/148720624/b95ec446-650d-48b5-a827-d84ac34ade4f" width="850">
+<img src="https://github.com/furkangenca/Mudek---Web/assets/148720624/54f5cf66-3a61-4a86-907f-24a48b111157" width="850">
+
+### Akademisyen Öğrenci Değerlendirme Ekranları
+<img src="https://github.com/furkangenca/Mudek---Web/assets/148720624/3d908e41-dac0-4ee7-b721-25d2a5080d50" width="850">
+<img src="https://github.com/furkangenca/Mudek---Web/assets/148720624/60f0c262-b66e-4886-8e56-1470814d4786" width="850">
+<img src="(https://github.com/furkangenca/Mudek---Web/assets/148720624/1d72b8e8-1023-4188-bd37-598764e74d58" width="850">
+
+### Müdek Denetleyicisi Sayfası
+<img src="https://github.com/furkangenca/Mudek---Web/assets/148720624/5ea711a4-4f43-4de4-8ffd-1e325160d173" width="850">
+<img src="https://github.com/furkangenca/Mudek---Web/assets/148720624/774f71ae-c5bf-4451-80d3-429e8d71287b" width="850">
+
