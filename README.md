@@ -12,6 +12,7 @@ MÜDEK Yönetim Sistemi, mühendislik eğitim programlarının standartlarını 
 ## Kullanılan Teknolojiler
 
 - **React Native**: Mobil uygulama geliştirmek için kullanılan açık kaynaklı bir framework.
+- **Expo**: React Native uygulamaları geliştirmeyi ve çalıştırmayı kolaylaştıran bir araç seti.
 - **Firebase**: Kullanıcı kimlik doğrulaması, veritabanı yönetimi ve dosya depolama gibi hizmetler sunan Google'ın platformu.
 - **Visual Studio Code**: Geliştirme ortamı.
 
