@@ -33,6 +33,7 @@ MÜDEK Yönetim Sistemi, mühendislik eğitim programlarının standartlarını 
 
 - Kök dizininde firebase.js dosyası oluşturarak, firebase ile projenizin konfigürasyonunu sağlayın. Böylece veri tabanı ve auth özelliklerini kullanabilirsiniz.
 - Kodların çalışması için Node.js indirmeniz ve projeye konsoldan dahil etmeniz gerekiyor. Ayrıca projemde kullandığım tüm paketleri de tek tek indirmelisiniz.
+- Akademisyen ve Müdek sorumlusu girişi kayıt olma ile değil firebase veri tabanından "teachers" ve "mudekmanagement" koleksiyonları içerisinde email ve password alanlarındaki bilgiye göre giriş sağlıyor.
 
 ## Tasarım
 
