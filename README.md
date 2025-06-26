@@ -1,54 +1,108 @@
-# MÜDEK Management System
+# 📘 MÜDEK Management System
 
-The MÜDEK Management System is an application designed to define, evaluate, and improve the standards of engineering education programs. This system provides an effective solution for instructors and students to organize course information, record exam grades, and perform assessments. It also provides the necessary infrastructure to ensure that evaluations carried out in accordance with MÜDEK standards are conducted reliably and securely.
+The **MÜDEK Management System** is a web-based application built using **React Native** and **Expo for Web**. It is designed to support the definition, evaluation, and continuous improvement of engineering education programs in accordance with **MÜDEK accreditation standards**.
 
-## Features
+This platform enables instructors, students, and administrators to efficiently manage academic data, monitor progress, and ensure compliance with quality assurance criteria.
 
-- **MÜDEK Administrator Login**: Manages the accreditation process, defines standards, and stores course data. Specifies evaluation criteria and performs system updates.
-- **Instructor Login**: Enters, updates, and stores course information. Records exam scores and evaluates students. Assigns points to students based on the criteria set by the MÜDEK administrator.
-- **Student Login**: Views course schedules, checks exam results, and tracks academic progress. Accesses personal grades and views related documents.
-- **Data Security and Privacy**: User information is securely stored and accessible only by authorized users.
+> ⚠️ **Note:** Although built with React Native and Expo, this project is configured specifically for **web browsers**. It is **not optimized for mobile usage**.
 
-## Technologies Used
+---
 
-- **React Native**: An open-source framework used for mobile app development.
-- **Expo**: A toolkit that simplifies developing and running React Native apps.
-- **Firebase**: Google’s platform providing services such as user authentication, database management, and file storage.
-- **Visual Studio Code**: The development environment used for coding.
+## 🧩 Features
 
-## Usage
+- 🔐 **MÜDEK Administrator Login**  
+  Manages accreditation workflows, defines evaluation standards, and updates system content.
 
-1. **Register and Login**: Download the app, sign up, and log in.
-2. **MÜDEK Administrator**:
-   - Define standards and store course data.
-   - Set evaluation criteria and apply updates.
-3. **Instructors**:
-   - Enter, update, and store course information.
-   - Record exam scores and evaluate students.
-4. **Students**:
-   - View course schedules.
-   - Check exam results and track academic progress.
+- 👨‍🏫 **Instructor Login**  
+  Adds and updates course details, records exam grades, and evaluates student performance based on administrator-defined criteria.
 
-## Requirements to Use the Application
+- 🎓 **Student Login**  
+  Views course schedules, exam results, and academic evaluations in a secure environment.
 
-- Create a `firebase.js` file in the root directory and configure it with your Firebase project settings to enable database and authentication features.
-- You need to install Node.js and run the project via console. Also, make sure to install all the required packages used in the project.
-- Instructor and MÜDEK administrator logins are not handled through registration, but by matching the email and password fields in the `teachers` and `mudekmanagement` collections in the Firebase database.
+- 🔒 **Data Security and Privacy**  
+  All user data is securely stored via Firebase and is accessible only to authorized roles.
 
-## Design
+---
 
-<img src="https://github.com/furkangenca/Mudek---Web/assets/148720624/219d3fdf-6cea-42b8-b1e9-caa8c3d6e3a1" width="850">
-<img src="https://github.com/furkangenca/Mudek---Web/assets/148720624/b1b80eb3-3445-490f-b65b-ea938397f5bc" width="850">
+## ⚙️ Technologies Used
 
-### Student Information Area
+- **React Native** – Cross-platform development framework  
+- **Expo for Web** – Web deployment toolkit for React Native  
+- **Firebase** – Backend services (Authentication, Firestore, Storage)  
+- **Node.js** – Runtime environment  
+- **Visual Studio Code** – Development environment
+
+---
+
+## 🚀 Getting Started
+
+### 📁 Setup
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/furkangenca/Mudek---Web.git
+cd Mudek---Web
+```
+
+2. **Install dependencies**
+```bash
+npm install
+```
+
+3. **Create a `firebase.js` file in the root directory**  
+Add your Firebase configuration to enable database and authentication features.
+
+4. **Start the project (Web only)**
+```bash
+npx expo start --web
+```
+
+### 🔑 Authentication Notes
+
+- **Instructor** and **MÜDEK Administrator** logins are controlled by verifying credentials stored in Firebase collections named `teachers` and `mudekmanagement`.
+- No self-registration is available for these roles.
+
+---
+
+## 🧭 Usage Overview
+
+1. **MÜDEK Administrator**
+   - Define standards
+   - Store course data
+   - Set evaluation criteria
+
+2. **Instructor**
+   - Enter and update course data
+   - Record exam scores
+   - Evaluate students
+
+3. **Student**
+   - View grades and course schedules
+   - Monitor academic progress
+
+---
+
+## 🎨 Design and Interface
+
+### 🧑‍🎓 Student Information Area
+
 <img src="https://github.com/furkangenca/Mudek---Web/assets/148720624/b95ec446-650d-48b5-a827-d84ac34ade4f" width="850">
 <img src="https://github.com/furkangenca/Mudek---Web/assets/148720624/54f5cf66-3a61-4a86-907f-24a48b111157" width="850">
 
-### Instructor Student Evaluation Screens
+### 👨‍🏫 Instructor Evaluation Screens
+
 <img src="https://github.com/furkangenca/Mudek---Web/assets/148720624/3d908e41-dac0-4ee7-b721-25d2a5080d50" width="850">
 <img src="https://github.com/furkangenca/Mudek---Web/assets/148720624/60f0c262-b66e-4886-8e56-1470814d4786" width="850">
 <img src="https://github.com/furkangenca/Mudek---Web/assets/148720624/1d72b8e8-1023-4188-bd37-598764e74d58" width="850">
 
-### MÜDEK Inspector Page
+### 🧑‍💼 MÜDEK Administrator Panel
+
 <img src="https://github.com/furkangenca/Mudek---Web/assets/148720624/5ea711a4-4f43-4de4-8ffd-1e325160d173" width="850">
 <img src="https://github.com/furkangenca/Mudek---Web/assets/148720624/774f71ae-c5bf-4451-80d3-429e8d71287b" width="850">
+
+---
+
+## 📌 Summary
+
+This project provides a structured and reliable tool for managing academic assessment processes under MÜDEK standards. Its browser-first design and Firebase backend make it suitable for web-based usage in educational environments.
+
