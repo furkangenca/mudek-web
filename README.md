@@ -1,55 +1,54 @@
-# MÜDEK Yönetim Sistemi
+# MÜDEK Management System
 
-MÜDEK Yönetim Sistemi, mühendislik eğitim programlarının standartlarını belirlemek, değerlendirmek ve iyileştirmek amacıyla tasarlanmış bir uygulamadır. Bu sistem, öğretim üyeleri ve öğrencilerin ders bilgilerini düzenlemeleri, sınav notlarını kaydetmeleri ve değerlendirme yapmaları için etkili bir çözüm sunar. Ayrıca, MÜDEK standartlarına uygun olarak yapılan değerlendirmelerin sağlıklı ve güvenilir bir şekilde gerçekleştirilmesi için gerekli altyapıyı sağlar.
+The MÜDEK Management System is an application designed to define, evaluate, and improve the standards of engineering education programs. This system provides an effective solution for instructors and students to organize course information, record exam grades, and perform assessments. It also provides the necessary infrastructure to ensure that evaluations carried out in accordance with MÜDEK standards are conducted reliably and securely.
 
-## Özellikler
+## Features
 
-- **MÜDEK Sorumlusu Girişi**: Akreditasyon sürecini yönetir, standartları belirler ve ders bilgilerini saklar. Değerlendirme kriterlerini tanımlar ve sistemdeki güncellemeleri gerçekleştirir.
-- **Akademisyen Girişi**: Ders bilgilerini girer, günceller ve saklar. Sınav notlarını kaydeder ve öğrencileri değerlendirir. MÜDEK sorumlusunun belirlediği kriterlere göre öğrencilere puanlar verir.
-- **Öğrenci Girişi**: Ders programlarını görüntüler, sınav notlarını kontrol eder ve akademik ilerlemelerini takip ederler. Kendi notlarına erişebilir ve ilgili belgeleri görüntüleyebilirler.
-- **Veri Güvenliği ve Gizliliği**: Kullanıcı bilgileri güvenli bir şekilde saklanır ve sadece yetkili kullanıcılar tarafından erişilebilir.
+- **MÜDEK Administrator Login**: Manages the accreditation process, defines standards, and stores course data. Specifies evaluation criteria and performs system updates.
+- **Instructor Login**: Enters, updates, and stores course information. Records exam scores and evaluates students. Assigns points to students based on the criteria set by the MÜDEK administrator.
+- **Student Login**: Views course schedules, checks exam results, and tracks academic progress. Accesses personal grades and views related documents.
+- **Data Security and Privacy**: User information is securely stored and accessible only by authorized users.
 
-## Kullanılan Teknolojiler
+## Technologies Used
 
-- **React Native**: Mobil uygulama geliştirmek için kullanılan açık kaynaklı bir framework.
-- **Expo**: React Native uygulamaları geliştirmeyi ve çalıştırmayı kolaylaştıran bir araç seti.
-- **Firebase**: Kullanıcı kimlik doğrulaması, veritabanı yönetimi ve dosya depolama gibi hizmetler sunan Google'ın platformu.
-- **Visual Studio Code**: Geliştirme ortamı.
+- **React Native**: An open-source framework used for mobile app development.
+- **Expo**: A toolkit that simplifies developing and running React Native apps.
+- **Firebase**: Google’s platform providing services such as user authentication, database management, and file storage.
+- **Visual Studio Code**: The development environment used for coding.
 
-## Kullanım
+## Usage
 
-1. **Kaydolma ve Giriş**: Uygulamayı indirin, kaydolun ve giriş yapın.
-2. **MÜDEK Sorumlusu**:
-   - Standartları belirleyin ve ders bilgilerini saklayın.
-   - Değerlendirme kriterlerini tanımlayın ve güncellemeler yapın.
-3. **Akademisyenler**:
-   - Ders bilgilerini girin, güncelleyin ve saklayın.
-   - Sınav notlarını kaydedin ve öğrencileri değerlendirin.
-4. **Öğrenciler**:
-   - Ders programlarını görüntüleyin.
-   - Sınav notlarını kontrol edin ve akademik ilerlemelerinizi takip edin.
+1. **Register and Login**: Download the app, sign up, and log in.
+2. **MÜDEK Administrator**:
+   - Define standards and store course data.
+   - Set evaluation criteria and apply updates.
+3. **Instructors**:
+   - Enter, update, and store course information.
+   - Record exam scores and evaluate students.
+4. **Students**:
+   - View course schedules.
+   - Check exam results and track academic progress.
 
-## Uygulamayı Kullanabilmek İçin
+## Requirements to Use the Application
 
-- Kök dizininde firebase.js dosyası oluşturarak, firebase ile projenizin konfigürasyonunu sağlayın. Böylece veri tabanı ve auth özelliklerini kullanabilirsiniz.
-- Kodların çalışması için Node.js indirmeniz ve projeye konsoldan dahil etmeniz gerekiyor. Ayrıca projemde kullandığım tüm paketleri de tek tek indirmelisiniz.
-- Akademisyen ve Müdek sorumlusu girişi kayıt olma ile değil firebase veri tabanından "teachers" ve "mudekmanagement" koleksiyonları içerisinde email ve password alanlarındaki bilgiye göre giriş sağlıyor.
+- Create a `firebase.js` file in the root directory and configure it with your Firebase project settings to enable database and authentication features.
+- You need to install Node.js and run the project via console. Also, make sure to install all the required packages used in the project.
+- Instructor and MÜDEK administrator logins are not handled through registration, but by matching the email and password fields in the `teachers` and `mudekmanagement` collections in the Firebase database.
 
-## Tasarım
+## Design
 
 <img src="https://github.com/furkangenca/Mudek---Web/assets/148720624/219d3fdf-6cea-42b8-b1e9-caa8c3d6e3a1" width="850">
 <img src="https://github.com/furkangenca/Mudek---Web/assets/148720624/b1b80eb3-3445-490f-b65b-ea938397f5bc" width="850">
 
-### Öğrenci Bilgilendirme Alanı
+### Student Information Area
 <img src="https://github.com/furkangenca/Mudek---Web/assets/148720624/b95ec446-650d-48b5-a827-d84ac34ade4f" width="850">
 <img src="https://github.com/furkangenca/Mudek---Web/assets/148720624/54f5cf66-3a61-4a86-907f-24a48b111157" width="850">
 
-### Akademisyen Öğrenci Değerlendirme Ekranları
+### Instructor Student Evaluation Screens
 <img src="https://github.com/furkangenca/Mudek---Web/assets/148720624/3d908e41-dac0-4ee7-b721-25d2a5080d50" width="850">
 <img src="https://github.com/furkangenca/Mudek---Web/assets/148720624/60f0c262-b66e-4886-8e56-1470814d4786" width="850">
-<img src="(https://github.com/furkangenca/Mudek---Web/assets/148720624/1d72b8e8-1023-4188-bd37-598764e74d58" width="850">
+<img src="https://github.com/furkangenca/Mudek---Web/assets/148720624/1d72b8e8-1023-4188-bd37-598764e74d58" width="850">
 
-### Müdek Denetleyicisi Sayfası
+### MÜDEK Inspector Page
 <img src="https://github.com/furkangenca/Mudek---Web/assets/148720624/5ea711a4-4f43-4de4-8ffd-1e325160d173" width="850">
 <img src="https://github.com/furkangenca/Mudek---Web/assets/148720624/774f71ae-c5bf-4451-80d3-429e8d71287b" width="850">
-
