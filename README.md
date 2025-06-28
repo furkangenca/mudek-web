@@ -29,8 +29,6 @@ This platform enables instructors, students, and administrators to efficiently m
 - **React Native** – Cross-platform development framework  
 - **Expo for Web** – Web deployment toolkit for React Native  
 - **Firebase** – Backend services (Authentication, Firestore, Storage)  
-- **Node.js** – Runtime environment  
-- **Visual Studio Code** – Development environment
 
 ---
 
