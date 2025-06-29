@@ -100,7 +100,8 @@ npx expo start --web
 
 ---
 
-## 📌 Summary
+## 📄 License
 
-This project provides a structured and reliable tool for managing academic assessment processes under MÜDEK standards. Its browser-first design and Firebase backend make it suitable for web-based usage in educational environments.
+Licensed under the MIT License.
+You may use, modify, and distribute this project under its terms.
 
